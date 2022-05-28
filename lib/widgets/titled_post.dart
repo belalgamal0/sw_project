@@ -8,7 +8,7 @@ class TitledPost extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(constraints: BoxConstraints(maxWidth: 400, minWidth: 100),child: Row(crossAxisAlignment: CrossAxisAlignment.start,children: [
-      Container(color: Colors.black,width: 180,height: 150,),
+      Container(child: Image.asset("assets/images/blog1.jpeg"),width: 180,height: 150,),
       SizedBox(width: 20),
       Column(crossAxisAlignment: CrossAxisAlignment.start,children: [
          Wrap(children: [Container(width: 170,child: Text("If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything",   style: TextStyle(

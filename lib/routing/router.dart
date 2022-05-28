@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_dashboard/pages/overview/overview.dart';
-import 'package:flutter_web_dashboard/pages/sign_up/clients.dart';
+import 'package:flutter_web_dashboard/pages/sign_up/sign_up.dart';
 import 'package:flutter_web_dashboard/routing/routes.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings){

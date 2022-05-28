@@ -3,8 +3,7 @@ const rootRoute = "/";
 const overviewPageDisplayName = "Overview";
 const overviewPageRoute = "/overview";
 
-const driversPageDisplayName = "Drivers";
-const driversPageRoute = "/drivers";
+
 
 const signUpPageDisplayName = "SignUp";
 const signupPageRoute = "/signup";
@@ -23,7 +22,6 @@ class MenuItem {
 
 List<MenuItem> sideMenuItemRoutes = [
  MenuItem(overviewPageDisplayName, overviewPageRoute),
- MenuItem(driversPageDisplayName, driversPageRoute),
  MenuItem(signUpPageDisplayName, signupPageRoute),
  MenuItem(authenticationPageDisplayName, authenticationPageRoute),
 ];
